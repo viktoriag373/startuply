@@ -1,0 +1,28 @@
+@import "vendor/reset";
+@import "_vars";
+@import "_fonts";
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+
+}
+
+body {
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+
+	&._lock {
+		overflow: hidden;
+	}
+
+}
+
+/* Blocks */
+@import "blocks/container";
+
+@import "blocks/header";

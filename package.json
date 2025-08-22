@@ -1,0 +1,53 @@
+{
+  "name": "vika",
+  "version": "1.0.0",
+  "description": "vika",
+  "author": "vika",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "gulp",
+    "build": "gulp build --production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.9",
+    "@babel/preset-env": "^7.24.8",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^9.1.3",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^3.0.2",
+    "circletype": "^2.3.0",
+    "del": "^7.1.0",
+    "gift": "^0.10.2",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-combine-mq": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-cssbeautify": "^3.0.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-strip-css-comments": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "node-sass": "^9.0.0",
+    "panini": "^1.7.2",
+    "sass": "^1.77.8",
+    "swiper": "^11.1.5"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ],
+  "dependencies": {
+    "nouislider": "^15.8.1"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.10"
+  }
+}
