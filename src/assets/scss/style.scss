@@ -7,22 +7,47 @@
 }
 
 html {
-
 }
 
 body {
 	font-optical-sizing: auto;
+	font-family: "Inter", sans-serif;
+	font-size: 16px;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 18px;
+	line-height: 150%; /* 24px */
+	color: var(--Text-Primary, #111928);
 
 	&._lock {
 		overflow: hidden;
 	}
 
+	h1 {
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 700;
+		letter-spacing: -0.24px;
+		line-height: 120%;
+	}
+
+	h2 {
+		font-size: 40px;
+		font-style: normal;
+		font-weight: 700;
+		letter-spacing: -0.2px;
+		line-height: 120%;
+	}
+
+	h4 {
+		font-size: 24px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 120%;
+	}
 }
 
 /* Blocks */
 @import "blocks/container";
-
+@import "blocks/button";
 @import "blocks/header";
+@import "blocks/menu";

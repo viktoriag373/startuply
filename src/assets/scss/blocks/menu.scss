@@ -1,0 +1,24 @@
+.menu {
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 27px;
+    }
+
+    &__item {
+    }
+
+    &__link {
+        color: var(--Text-Primary, #111928);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+        text-decoration: none;
+        transition: all 0.3s;
+
+        &:hover {
+            color: var(--Primary, #1c64f2);
+        }
+    }
+}

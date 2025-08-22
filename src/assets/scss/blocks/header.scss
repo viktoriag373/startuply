@@ -1,0 +1,44 @@
+.header {
+    padding: 12px 0;
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logo-box {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__logo {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+
+    &__logo-text {
+        text-transform: uppercase;
+        background: linear-gradient(45deg, #222983 33%, #197ec1 66%, #39c9ef);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0b2349;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__wrap-right {
+        display: flex;
+        align-items: center;
+        gap: 33px;
+    }
+
+    &__menu {
+    }
+
+    &__button {
+    }
+}
+.container {
+}
